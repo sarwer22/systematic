@@ -1,0 +1,81 @@
+/*Tablet Layout*/
+
+    @media only screen and (min-width:200px) and (max-width:991px){
+        .social_area {
+	        max-width: 450px;
+            margin-top: -8px;
+}
+    .inner_menu {
+    background: none;
+        min-height: 0px;
+    
+}  
+        .inner_menu::after {
+    display: none;
+    
+}
+        
+    .mean-container .mean-nav {
+	    margin-top: 0px;
+        width: 80%;
+        
+}    
+        #slider_area {
+	margin-top: 0px;
+}
+        .inner_hero h2 {
+	font-size: 55px;
+	
+}
+        
+}
+
+/*Mobile Layout*/
+
+    @media only screen and (min-width:200px) and (max-width:480px){
+      .mini_menu {
+	width: 100%;
+	margin-bottom: 10px;
+} 
+        .mini_menu ul {
+	text-align: center;
+}
+        .search_area, .logo_area {
+	float: none;
+	width: 250px;
+	margin: 0 auto;
+    text-align: center;
+}
+        .social_area ul {
+	text-align: center;
+	float: none;
+           
+}
+        .inner_hero h2 {
+	font-size: 25px;
+}
+        .inner_hero a {
+	padding-bottom: 20px;
+}
+        #work_area {
+	background: #f2f2f2;
+	padding: 20px 0;
+}
+        .child_work {
+	width: 98%;
+	
+}
+        .child_footer {
+	
+	width: 96%;
+}.left_copyright {
+	width: 100%;
+    margin-bottom: 10px;
+}
+        .right_copyright {
+	text-align: left;
+	width: 100%;
+        
+}
+        
+}
